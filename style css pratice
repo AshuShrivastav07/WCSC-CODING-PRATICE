@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body{/*any attribute in this section will be apply on full body*//*any attribute in this section will be apply on full body*/
+
+            background-color: aqua;
+        }
+        h1{
+            color:yellow;
+        }
+
+        .p1{
+            text-align: justify;
+            text-decoration: none;/*underline overline line-through blink*/
+            text-emphasis: open sesame;/*accent dot circle disc  filled red '0' rgb(255, 0, 0) */
+            color: brown;
+            font-size: 20px;
+            font-family: monospace;
+            background-color: chartreuse;
+            font-variant:normal;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="p1">An internal style sheet may be used if one single HTML page has a unique style.
+        The internal style is defined inside the <style> element, inside the head section.</p>
+</body>
+</html>
